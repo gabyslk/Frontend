@@ -1,0 +1,25 @@
+interface Forms{
+    id: number;
+    idTip: number;
+    idIndicator1: number;
+    q1: string;
+    idIndicator2: number;
+    q2: string;
+    idIndicator3: number;
+    q3: string;
+    idIndicator4: number;
+    q4: string;
+    idIndicator5: number;
+    q5: string;
+    idIndicator6: number;
+    q6: string;
+    idIndicator7: number;
+    q7: string;
+    idIndicator8: number;
+    q8: string;
+    idIndicator9: number;
+    q9: string;
+    idIndicator10: number;
+    q10: string;
+}
+export {Forms}

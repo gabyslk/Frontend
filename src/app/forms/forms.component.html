@@ -1,0 +1,24 @@
+<div class="container" id = "main-container">
+   <div class="row">
+        <div *ngFor="let form of forms" class="col-md-6 col-xl-3">
+            <p>{{form?.id}}</p>
+            <h4>idTip:{{form?.idTip}}
+                idQuestion:{{form?.idQuestion1}} </h4>
+          
+        </div>
+        <div *ngFor="let question of questions" class="col-md-6 col-xl-3">
+            <p>{{question?.text}}</p>
+        </div>
+    </div>    
+</div>    
+<br>
+<br>
+<div class="modal-body">
+    <form #addForm="ngForm" (ngSubmit)="onSendFormResponse(addForm)">
+    <div class="form-group">
+       <label for="responses">Responses</label>
+       <input type="text" ngModel name="responses" class="form-control" id="responses" placeholder="responses" required>
+    </div>
+    <button (click)="onSendFormResponse(addForm.value)" data-dismiss="modal" class="btn btn-primary" >Send</button> 
+    </form>
+</div>

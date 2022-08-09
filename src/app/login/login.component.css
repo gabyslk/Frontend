@@ -1,0 +1,29 @@
+#loginDiv{
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    color: #7575a3;
+    margin: auto;
+    width: 20%;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.loginSucces{
+    margin: 0; 
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    font-size: 1.5rem;
+    text-align: Center;
+    color: #7575a3;
+    margin-top: 4 rem;
+
+}
+
+.startReviewBtn{
+    width: 200px !important;
+    height: 50px !important;
+    line-height: 50px; 
+    box-sizing: border-box;
+}
+
+#afterLoginAdminImg{
+    margin-right: 30px;
+}

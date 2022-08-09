@@ -1,0 +1,129 @@
+
+<div *ngIf="showDiv" class="parent">
+    <div class="child">
+        <mat-card id="form1">
+            <mat-card-title  style="color: white;">Review yourself</mat-card-title>
+            <mat-card-actions>
+            <button mat-raised-button (click)="showDivFunction();goToBottom();setFormTypeAsReviewYourself()" id="completeFormBtn1" color="accent" >Complete Form</button>
+        </mat-card-actions>
+        </mat-card>
+    </div>
+    <div *ngIf="showDiv" class="child">
+        <mat-card id="form2">
+        <mat-card-title  style="color: white;">Review other colleagues</mat-card-title>
+        <mat-card-actions>
+        <button mat-raised-button (click)="showDivFunction();goToBottom();setFormTypeAsReviewOthers()" id="completeFormBtn2" color="accent" >Complete Form</button>
+        <!-- <a mat-raised-button (click)="showDivFunction();goToBottom();setFormTypeAsReviewOthers()" class="completeFormBtn2" color="accent" >Go to forms</a> -->
+        </mat-card-actions>
+        </mat-card>
+    </div>
+</div>
+
+<!-- routerLink="/forms" routerLinkActive="active" ariaCurrentWhenActive="page" -->
+
+
+  
+
+
+
+
+    
+<!--  
+     <style>
+ 
+        /* Styling the Body element i.e. Color,
+        Font, Alignment */
+        .formular1 {
+            background-color: white;
+            font-family: Verdana;
+            text-align: center;
+        }
+ 
+        /* Styling the Form (Color, Padding, Shadow) */
+        form {
+            background-color: #fff;
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 30px 20px;
+            box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+        }
+ 
+        /* Styling form-control Class */
+        .form-control {
+            text-align: left;
+            margin-bottom: 25px;
+        }
+ 
+        /* Styling form-control Label */
+        .form-control label {
+            display: block;
+            margin-bottom: 10px;
+        }
+ 
+        /* Styling form-control input,
+        select, textarea */
+        .form-control input,
+        .form-control select,
+        .form-control textarea {
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            padding: 10px;
+            display: block;
+            width: 95%;
+        }
+ 
+        /* Styling form-control Radio
+        button and Checkbox */
+        .form-control input[type="radio"],
+        .form-control input[type="checkbox"] {
+            display: inline-block;
+            width: auto;
+        }
+ 
+        /* Styling Button */
+        button {
+            background-color: #05c46b;
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            font-size: 21px;
+            display: block;
+            width: 100%;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+    </style> -->
+
+ 
+<div class = "formular1" *ngIf="showForm1">  
+       
+    
+    
+    
+    <!-- Create Form -->
+    <!-- <form id="form">
+
+        <h1>Review yoursel survey!</h1>
+
+        
+        <p>{{f?.id}}</p>
+        <h4>idTip:{{f?.idTip}}
+            Form Type: {{currentFormType}}
+            idQuestion:{{f?.idQuestion1}} </h4>
+          
+        
+        <div *ngFor="let question of questions">
+            <input type="text">
+                <p>{{question?.text}}</p>
+            
+        </div> -->
+       
+  
+        <!-- Multi-line Text Input Control -->
+        <!-- <button type="submit" value="submit">
+            Submit
+        </button>
+    </form> -->
+</div>
+

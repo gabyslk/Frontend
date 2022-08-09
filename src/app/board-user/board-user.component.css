@@ -1,0 +1,129 @@
+#form1{
+    width: 250px !important;
+    height: 200px !important;
+    text-align: center;
+    background-color: #3f51b5;
+    background-image: linear-gradient(to right, #9795f0,#fbc8db);
+    background-size: 200%;
+    animation: gradient 5s ease infinite;
+}
+
+#form2{
+    width: 250px !important;
+    height: 200px !important;
+    text-align: center;
+    background-color: #3f51b5;
+    background-image: linear-gradient(to right, #9795f0,#fbc8db);
+    background-size: 200%;
+    animation: gradient 5s ease infinite;
+}
+
+
+
+
+    /*  */
+
+.parent {
+    margin: 1rem;
+    padding: 5rem 5rem;
+    text-align: center;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  }
+  .child {
+    display: inline-block;
+    padding: 6rem 6rem;
+    vertical-align: middle;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    filter: drop-shadow(20px 20px 6px #64aed9);
+  }
+
+#completeFormBtn1{
+    color: white;
+    background-color: 
+    #7ec1f1;
+    margin-top: 50px;
+}
+
+#completeFormBtn2{
+    color: white;
+    background-color:#9acef4;
+    margin-top: 18px;
+}
+
+
+/* #main-container{
+    width: 1000px !important;
+    height: 1000px !important;
+} */
+.formular1 {
+    background-color: white;
+    font-family: Verdana;
+    text-align: center;
+    height: 2000px !important;
+}
+
+/* Styling the Form (Color, Padding, Shadow) */
+form {
+    background-color: #fff;
+    max-width: 800px;
+    max-height: 800px !important;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Styling form-control Class */
+.form-control {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+/* Styling form-control Label */
+.form-control label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Styling form-control input,
+select, textarea */
+.form-control input,
+.form-control select,
+.form-control textarea {
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+}
+
+/* Styling form-control Radio
+button and Checkbox */
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+
+/* Styling Button */
+/* button {
+    background-color: #05c46b;
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+} */
+
+
+
+@keyframes gradient{
+    0%{ background-position: 0; }
+    25% { background-position: 50%; }
+    50% { background-position:100%; }
+    75% { background-position: 50%; }
+    100% { background-position: 0; }
+}
